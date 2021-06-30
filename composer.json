@@ -1,0 +1,26 @@
+{
+    "name": "maxympopov/learning",
+    "description": "My PHP project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maxympopov\\Learning\\": "src/",
+            "Maxympopov\\Learning\\": "learning/",
+            "Maxympopov\\Learning\\": "mathematics/",
+            "Maxympopov\\Learning\\": "mvc-project-30-04-2021/",
+            "Maxympopov\\Learning\\": "patterns-30-04-2021/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxym Popov",
+            "email": "maxympopov260630@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "swiftmailer/swiftmailer": "~6.2"
+    }
+}
