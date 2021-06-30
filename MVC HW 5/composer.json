@@ -1,0 +1,19 @@
+{
+    "name": "maksympopov/mvc",
+    "description": "MVC",
+    "type": "project",
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "core/contracts"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxym Popov",
+            "email": "maxympopov260630@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
